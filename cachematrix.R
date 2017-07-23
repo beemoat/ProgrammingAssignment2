@@ -5,7 +5,7 @@
 ## set the value of the matrix, get the value of the matrix, set the value of
 ## the inverse and get the value of the inverse.
 makeCacheMatrix <- function(x = matrix()) {
-    mInv <- NULL
+    xInv <- NULL
     set <- function(y) {
         x <<- y
         xInv <<- NULL
